@@ -15,4 +15,4 @@ jobs:
         uses: docker/login-action@v4
         with:
           username: ${{ vars.DOCKERHUB_USERNAME }}
-          password: ${{ vars.DOCKERHUB_PASSWORD }}
+          password: ${{ vars.DOCKERHUB_TOKEN }}
